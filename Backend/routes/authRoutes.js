@@ -9,6 +9,8 @@ router.post("/register", registerUser);
 router.post("/login", loginUser);
 router.get("profile", protect, getUserProfile);
 
+
+// route and controller written here only.
 router.post("/upload-image", upload.single("image"), (req, res) => {
     if (!req.file) {
         return res.status(400).json({ message: "No file uploaded" });
