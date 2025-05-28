@@ -36,8 +36,26 @@ An AI-powered interview preparation web app built with **Node.js**, **Express**,
 
 ## 📦 Installation
 
-### 1. Clone the Repository
+### 1. Create a .env file in /backend with the following
+- JWT_SECRET=your_jwt_secret_key
+- MONGO_URI=your_mongodb_connection_string
+- GEMINI_API_KEY=your_gemini_api_key
+- PORT=5000
 
+### 2. Backend Setup
 ```bash
-git clone https://github.com/your-username/ai-interview-prep.git
-cd ai-interview-prep
+cd backend
+npm install
+```
+- Start the backend server:
+```bash
+nom run dev
+```
+
+### 2. Frontend Setup
+```bash
+cd ../frontend
+npm install
+npm run dev
+```
+
