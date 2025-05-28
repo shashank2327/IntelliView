@@ -1,18 +1,21 @@
 # 🧠 AI Interview Prep Web App
 
-An AI-powered interview preparation platform built with **Node.js**, **Express**, **MongoDB**, **React**, and the **Gemini API**. This web app helps users practice for interviews by generating intelligent and context-aware questions, simulating realistic interview scenarios, and offering feedback using AI.
+An AI-powered interview preparation web app built with **Node.js**, **Express**, **MongoDB**, **React**, and **Gemini API**. This app allows users to create customized interview sessions and receive AI-generated questions and answers tailored to their role, experience level, and focus areas.
 
 ---
 
 ## 🚀 Features
 
-- 🔐 User Authentication (register/login)
-- 🤖 AI-generated interview questions using Gemini API
-- 📋 Multiple categories (Tech, HR, Behavioral, etc.)
-- 📊 Response evaluation and feedback
-- 📁 History tracking with MongoDB
-- 💡 Clean and responsive UI using React
-- 🌐 RESTful API built with Express.js
+- 🔐 **User Authentication** – Secure registration and login
+- 🧩 **Custom Interview Sessions** – Based on:
+  - Role (e.g., Software Developer, Product Manager)
+  - Experience level (e.g., Fresher, Mid-Level, Senior)
+  - Topics to focus on (e.g., Data Structures, System Design)
+  - Number of questions
+- 🤖 **Gemini API Integration** – AI-generated interview questions and model answers
+- 📈 **Session History** – Track and review past sessions
+- 💬 **Interactive Q&A Interface** – Real-time question and answer view
+- 🎯 **Clean, Responsive UI** – Built with React
 
 ---
 
@@ -20,20 +23,20 @@ An AI-powered interview preparation platform built with **Node.js**, **Express**
 
 **Frontend:**
 - React
-- Tailwind CSS / Bootstrap (if used)
+- Tailwind CSS / Bootstrap (optional)
 - Axios
 
 **Backend:**
 - Node.js
 - Express.js
 - MongoDB (Mongoose)
-- Gemini API (for AI question generation and feedback)
+- Gemini API
 
 ---
 
 ## 📦 Installation
 
-### 1. Clone the repo
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/your-username/ai-interview-prep.git
