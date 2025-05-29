@@ -1,7 +1,7 @@
 const express = require('express');
 const { togglePinQuestion, updateQuestionNote, addQuestionsToSession } = require('../controllers/questionController');
 const { protect } = require('../middlewares/authMiddleware');
-const { route } = require('./authRoutes');
+
 
 const router = express.Router();
 
