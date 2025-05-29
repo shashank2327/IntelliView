@@ -1,8 +1,8 @@
 const questionAnswerPrompt = (
-    role,
-    experience,
-    topicsToFocus,
-    numberOfQuestions
+  role,
+  experience,
+  topicsToFocus,
+  numberOfQuestions
 ) => `
     You are an AI trained to generate technical interview questions and answers.
     
