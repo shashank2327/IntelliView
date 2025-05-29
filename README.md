@@ -49,7 +49,7 @@ npm install
 ```
 - Start the backend server:
 ```bash
-nom run dev
+npm run dev
 ```
 
 ### 2. Frontend Setup
